@@ -44,8 +44,6 @@
 		96C9CBD82A925A1000FCA9AE /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9CBD72A925A1000FCA9AE /* AlertExtension.swift */; };
 		96C9CBDA2A925B7200FCA9AE /* ValidationUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9CBD92A925B7200FCA9AE /* ValidationUnitTest.swift */; };
 		96C9CBDD2A925C5A00FCA9AE /* APIServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9CBDC2A925C5A00FCA9AE /* APIServiceMock.swift */; };
-		96C9CBE52A927B7200FCA9AE /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9CBE32A927B7200FCA9AE /* CurrencyTableViewCell.swift */; };
-		96C9CBE62A927B7200FCA9AE /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C9CBE42A927B7200FCA9AE /* CurrencyTableViewCell.xib */; };
 		96C9CBED2A927E0100FCA9AE /* CurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9CBEB2A927E0100FCA9AE /* CurrencyPickerView.swift */; };
 		96C9CBEE2A927E0100FCA9AE /* CurrencyPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C9CBEC2A927E0100FCA9AE /* CurrencyPickerView.xib */; };
 		96C9CBF02A927E1300FCA9AE /* Currency.json in Resources */ = {isa = PBXBuildFile; fileRef = 96C9CBEF2A927E1300FCA9AE /* Currency.json */; };
@@ -118,8 +116,6 @@
 		96C9CBD72A925A1000FCA9AE /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
 		96C9CBD92A925B7200FCA9AE /* ValidationUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUnitTest.swift; sourceTree = "<group>"; };
 		96C9CBDC2A925C5A00FCA9AE /* APIServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceMock.swift; sourceTree = "<group>"; };
-		96C9CBE32A927B7200FCA9AE /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
-		96C9CBE42A927B7200FCA9AE /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
 		96C9CBEB2A927E0100FCA9AE /* CurrencyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPickerView.swift; sourceTree = "<group>"; };
 		96C9CBEC2A927E0100FCA9AE /* CurrencyPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyPickerView.xib; sourceTree = "<group>"; };
 		96C9CBEF2A927E1300FCA9AE /* Currency.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Currency.json; sourceTree = "<group>"; };
@@ -325,7 +321,6 @@
 		96C9CBB62A92353B00FCA9AE /* CurrencyConvertor */ = {
 			isa = PBXGroup;
 			children = (
-				96C9CBE22A927B4F00FCA9AE /* Cells */,
 				96C9CBE12A927B3D00FCA9AE /* ViewController */,
 				96C9CBE02A927B3700FCA9AE /* ViewModel */,
 				96C9CBDE2A927B2A00FCA9AE /* Model */,
@@ -414,15 +409,6 @@
 				96C9CBB82A92355200FCA9AE /* ConverterViewController.xib */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		96C9CBE22A927B4F00FCA9AE /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				96C9CBE32A927B7200FCA9AE /* CurrencyTableViewCell.swift */,
-				96C9CBE42A927B7200FCA9AE /* CurrencyTableViewCell.xib */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		96C9CBF32A92820700FCA9AE /* CurrencyPicker */ = {
@@ -576,7 +562,6 @@
 				96C9CBF02A927E1300FCA9AE /* Currency.json in Resources */,
 				96C9CBB52A92350B00FCA9AE /* ValidationViewController.xib in Resources */,
 				96C9CB672A920EED00FCA9AE /* LaunchScreen.storyboard in Resources */,
-				96C9CBE62A927B7200FCA9AE /* CurrencyTableViewCell.xib in Resources */,
 				96C9CC062A9296D800FCA9AE /* sni.cloudflaressl.com.cer in Resources */,
 				96C9CB642A920EED00FCA9AE /* Assets.xcassets in Resources */,
 				96C9CB912A920F9D00FCA9AE /* HomeViewController.xib in Resources */,
@@ -630,7 +615,6 @@
 				96C9CBCB2A92430800FCA9AE /* BaseRouterProtocol.swift in Sources */,
 				96C9CC042A928F9200FCA9AE /* Info.swift in Sources */,
 				96C9CBA92A92128B00FCA9AE /* APIService.swift in Sources */,
-				96C9CBE52A927B7200FCA9AE /* CurrencyTableViewCell.swift in Sources */,
 				96C9CC022A928F9200FCA9AE /* ConvertedModel.swift in Sources */,
 				96C9CBC02A923A7200FCA9AE /* ValidationViewModel.swift in Sources */,
 				96C9CBD12A92499300FCA9AE /* NetworkAdaptor.swift in Sources */,
