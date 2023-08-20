@@ -80,7 +80,7 @@ public class NetworkAdapter {
             if let code = response.error?.responseCode {
                 return HttpResponseError(domain: "SSL", statusCode: code, serverErrorDescription: response.error?.localizedDescription)
             } else {
-                debugPrint("SSL Error, look on Network adaptop, handleErrorFor..()")
+                debugPrint(APIError.SSLError)
             }
 
         }
