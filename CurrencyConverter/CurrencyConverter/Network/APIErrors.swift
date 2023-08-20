@@ -72,6 +72,9 @@ public enum APIError: LocalizedError, CustomStringConvertible {
     /// Error to return if an error occurs that we can not handle.
     case unhandledError
     
+    //SSL Error
+    case SSLError
+    
     
     // MARK: - CustomStringConvertible
     public var description: String {
@@ -105,6 +108,8 @@ public enum APIError: LocalizedError, CustomStringConvertible {
             return "\("Error".localized) \("forbidden.".localized)"
         case .unhandledError:
             return "\("Error".localized)"
+        case .SSLError:
+            return "\("Error".localized) \("SSL Error".localized)"
         }
     }
     
